@@ -1,0 +1,11 @@
+Problem Statement
+
+Most clustering algorithms try to group close-by points and create meaningful clusters. For instance, k-means clustering algorithm tries to create k clusters from the given data set such that the sum of the distances of each point from its cluster centroid is minimum. DBSCAN Algorithm groups points where distance between any two points is less than a specified limit.
+ 
+In this assignment, we want to implement a different clustering algorithm. 
+
+Given a set of points with their geo-coordinates and a weight associated with them, we want to create clusters of points which are in close proximity and the total weight of all the members of the cluster is less than a specified limit for each cluster. 
+
+Small amount of data is provided in clustering_sample.csv file which contains latitude, longitude & weight of some points. Aim of this assignment is to create a function which takes this data file and cluster size as inputs and returns the cluster id of each data point as per the new clustering algorithm discussed above. 
+
+You are expected to formulate and solve this problem as an optimization problem. Also, you are required to code a basic solution which should not take more than 2-3 days. You are also required to write a report on what you think are the possible approaches for solving this problem statement along with the pros and cons of each approach you mention.
